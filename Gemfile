@@ -6,6 +6,8 @@ gem 'rails', '4.0.0.rc2'
 gem 'devise'
 #simple form gem
 gem "simple_form", "~> 3.0.0.rc"
+#paperclip
+gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
 #set up for Heroku integration for rails v4
 gem 'rails_12factor', group: :production
 # Use sqlite3 as the database for Active Record
