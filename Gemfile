@@ -7,7 +7,7 @@ gem 'devise'
 #simple form gem
 gem "simple_form", "~> 3.0.0.rc"
 #paperclip
-gem 'paperclip', github: 'thoughtbot/paperclip', branch: 'rails-4'
+gem 'paperclip',  "~> 3.4.2" #, github: 'thoughtbot/paperclip', branch: 'rails-4'
 #Amazon S3
 gem "aws-sdk"
 #set up for Heroku integration for rails v4
